@@ -1,0 +1,12 @@
+#root, #app, #map {
+  height: 100%;
+}
+
+#state {
+  width: 200px;
+  float: left;
+}
+
+#map {
+  margin-left: 200px;
+}

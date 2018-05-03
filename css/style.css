@@ -1,0 +1,67 @@
+.example-appear {
+  opacity: 0.01;
+}
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.example-enter {
+  opacity: 0.01;
+}
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.example-leave {
+  opacity: 1;
+}
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+h1{
+  color: red !important;
+}
+/*.header {
+    background-color: #ed9494;
+    padding: 70px 20px;
+    margin: 0px;
+}*/
+table{
+  /*border: 1px solid black;*/
+  width: 100%;
+  background-color: bisque;
+}
+th{
+  text-align: left;
+}
+img{
+  border-radius: 40px;
+}
+li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav-menu li {
+list-style: none;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav-menu{
+  background-color: #000000;
+  padding: 10px;
+  margin: 0px
+}
+.header img {
+    width: 100%;
+    border-radius: 0px;
+    height: 300px;
+}
+
+.video-react-controls-enabled.video-react-has-started.video-react-paused.video-react-fluid.video-react-user-inactive.video-react-workinghover.video-react {
+    padding-top: 0% !important;
+}
